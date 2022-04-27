@@ -22,7 +22,7 @@ public class Informacion {
     }
 
     public String getNombre() {
-        return nombre;
+        return "El nombre es: "+nombre;
     }
 
     public void setNombre(String nombre) {
@@ -30,19 +30,21 @@ public class Informacion {
     }
 
     public String getCarrera() {
-        return carrera;
+        return "La carrera es: "+carrera;
     }
 
     public void setCarrera(String carrera) {
         this.carrera = carrera;
     }
 
-    public int getSemestre() {
-        return semestre;
+    public String getSemestre() {
+        return "El semestre es: "+semestre;
     }
 
     public void setSemestre(int semestre) {
         this.semestre = semestre;
     }
+
+   
     
 }

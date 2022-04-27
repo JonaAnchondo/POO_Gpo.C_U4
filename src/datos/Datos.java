@@ -18,9 +18,10 @@ public class Datos {
     public static void main(String[] args) {
         Informacion info = new Informacion ("JGS","Sistemas",3);
         //encapsulamiento
-        String NumCon = info.getNombre()*" "+info.getCarrera()+" "+info.getSemestre()+" "
-        System.out.println("/nDatos generales alumno(a) : "+NumCon);
-        System.out.println("Hola");
+        String NumCont = info.getNombre()+""+info.carrera()+""+info.semestre()+"";
+        
+        System.out.println("Datos del alumno: "+NumCont);
+   
     }
     // se crean metodos
 }
